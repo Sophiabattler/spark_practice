@@ -1,0 +1,17 @@
+# Spark reads/writes data as directories of part-files (not single files),
+# so any folder ending in these extensions is generated data, not source.
+**/*.csv/
+**/*.json/
+**/*.parquet/
+
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter / OS noise
+.ipynb_checkpoints/
+.DS_Store
+
+# IDE
+.idea/
