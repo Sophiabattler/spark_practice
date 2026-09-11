@@ -1484,7 +1484,7 @@ wheels = [
 ]
 
 [[package]]
-name = "spark-homework"
+name = "spark-practice"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
